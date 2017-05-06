@@ -1,6 +1,6 @@
 **GTA V Online - SessionSweeper 1.2**<br>
-Press Pause/Break to empty the current session.<br>
-Press Scroll Lock to lock the session and stop people from joining.<br>
+Press *Pause/Break* to empty the current session.<br>
+Press *Scroll Lock* to lock the session and stop people from joining.<br>
 <br>
 **Links**<br>
 [Download Now](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
