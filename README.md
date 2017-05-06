@@ -13,7 +13,7 @@ Press *Scroll Lock* to lock the session and stop people from joining.<br>
 [3] Everyone in your session needs to have SessionSweeper's session lock enabled to work if you are not alone.<br>
 <br>
 **Will I get banned for using this?**<br>
-No. Process suspension and firewall blockage can happen on any normal PC.<br>
+**No,** process suspension and firewall blockage can happen on any normal computer.<br>
 <br>
 **Video**<br>
 [![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")
