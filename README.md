@@ -14,7 +14,7 @@ Press *Scroll Lock* to lock the session and stop people from joining.<br>
 **Images**
 <br>
 <details> 
-  <summary>Main Layout</summary>
+  <summary>Main Screen</summary>
   <img src="http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png"/>
 </details>
 
