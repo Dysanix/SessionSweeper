@@ -3,7 +3,8 @@ Press *Pause/Break* to empty the current session.<br>
 Press *Scroll Lock* to lock the session and stop people from joining.<br>
 <br>
 **Links**<br>
-[Download Now](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
+[[Dropbox] Download]](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
+[[ZippyShare] Download](http://www35.zippyshare.com/d/mboO3P7U/12602/SessionSweeper.exe)<br>
 ~~Virus Scan~~ Will be up soon!<br>
 <br>
 **Requirements for Session Locking:**<br>
