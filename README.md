@@ -16,6 +16,6 @@ Press Scroll Lock to lock the session and stop people from joining.<br>
 <br>
 <details> 
   <summary>Main Layout</summary>
-  ![Main Layout](http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png)
+  <img src="http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png"/>
 </details>
 
