@@ -1,4 +1,4 @@
-**SessionSweeper**
+**SessionSweeper**<br>
 **Version 1.2**
 
 Press Pause/Break to empty the current session.
