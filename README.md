@@ -1,4 +1,4 @@
-## **SessionSweeper 1.2**
+<font face="Segoe UI" size="20">SessionSweeper 1.2</font>
 <br>
 Press Pause/Break to empty the current session.<br>
 Press Scroll Lock to lock the session and stop people from joining.<br>
