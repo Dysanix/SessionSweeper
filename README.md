@@ -4,8 +4,8 @@ Press *Scroll Lock* to lock the session and stop people from joining.<br>
 <br>
 **Links**<br>
 **[Download (Dropbox)](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
-[Download (ZippyShare)](http://www35.zippyshare.com/d/mboO3P7U/12602/SessionSweeper.exe)**<br>
-~~Virus Scan~~ Will be up soon!<br>
+[Download (ZippyShare)](http://www35.zippyshare.com/d/mboO3P7U/12602/SessionSweeper.exe)<br>
+~~Virus Scan~~** Will be up soon!<br>
 <br>
 **Requirements for Session Locking:**<br>
 [1] Windows Firewall needs to be enabled.<br>
