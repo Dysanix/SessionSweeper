@@ -12,6 +12,10 @@ Press *Scroll Lock* to lock the session and stop people from joining.<br>
 [2] You need to run SessionSweeper as Administrator, so it can edit Firewall rules.<br>
 [3] Everyone in your session needs to have SessionSweeper's session lock enabled to work if you are not alone.<br>
 <br>
+**Video**
+<br>
+[![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")
+<br>
 **Images**
 <br>
 <details> 
