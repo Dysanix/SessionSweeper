@@ -16,9 +16,9 @@ Press *Scroll Lock* to lock the session and stop people from joining.<br>
 **No,** process suspension and firewall blockage can happen on any normal computer.<br>
 <br>
 **Video**<br>
-[![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")
+[![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")<br>
 <br>
-**Images**<br>
+**Images**
 <details> 
   <summary>Main Screen</summary>
   <img src="http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png"/>
