@@ -1,8 +1,8 @@
-**SessionSweeper**<br>
+## **SessionSweeper**<br>
 **Version 1.2**<br>
 <br>
 Press Pause/Break to empty the current session.<br>
-Press Scroll Lock to lock the session and stop people from joining.
+Press Scroll Lock to lock the session and stop people from joining.<br>
 <br>
 <br>
 **Downloads**<br>
