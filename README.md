@@ -18,9 +18,6 @@ Press *Scroll Lock* to toggle lock your current session and stop people from joi
 **Video:**<br>
 [![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")<br>
 <br>
-**Images:**
-<details> 
-  <summary>Main Screen</summary>
-  <img src="http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png"/>
-</details>
+**Image:**<br>
+<img src="http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png"/>
 
