@@ -1,4 +1,5 @@
 X:\Users\Dysanix\documents\visual studio 2017\Projects\SessionSweeper\SessionSweeper\bin\Debug\SessionSweeper.exe.config
+X:\Users\Dysanix\documents\visual studio 2017\Projects\SessionSweeper\SessionSweeper\obj\Debug\SessionSweeper.csprojResolveAssemblyReference.cache
 X:\Users\Dysanix\documents\visual studio 2017\Projects\SessionSweeper\SessionSweeper\obj\Debug\Interop.NetFwTypeLib.dll
 X:\Users\Dysanix\documents\visual studio 2017\Projects\SessionSweeper\SessionSweeper\obj\Debug\SessionSweeper.csproj.ResolveComReference.cache
 X:\Users\Dysanix\documents\visual studio 2017\Projects\SessionSweeper\SessionSweeper\obj\Debug\SessionSweeper.fMain.resources
