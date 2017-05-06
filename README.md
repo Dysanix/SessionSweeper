@@ -1,12 +1,12 @@
-## **SessionSweeper**<br>
-**Version 1.2**<br>
+## **SessionSweeper 1.2**<br>
 <br>
 Press Pause/Break to empty the current session.<br>
 Press Scroll Lock to lock the session and stop people from joining.<br>
 <br>
 <br>
-**Downloads**<br>
-[Dropbox](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
+**Links**<br>
+[Download Now](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<br>
+[Virusscan](https://virustotal.com/nl/file/3eb8636c8ceb6acdd9ef1961364f242e162977f82dc0be69fa83dee1c27d3b23/analysis/1494063362/)<br>
 <br>
 <br>
 **Requirements for Session Locking:**<br>
@@ -16,5 +16,8 @@ Press Scroll Lock to lock the session and stop people from joining.<br>
 <br>
 <br>
 **Images**<br>
-![Main Layout](http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png)
+<details> 
+  <summary>Main Layout</summary>
+  ![Main Layout](http://image.prntscr.com/image/ae220ef359644fddafc2140e0a18ea6e.png)
+</details>
 
