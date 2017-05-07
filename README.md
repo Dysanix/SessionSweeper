@@ -9,7 +9,7 @@ Press *Scroll Lock* to toggle lock your current session and stop people from joi
 [![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
 <br>
 **Official Threads:<br>
-[Reddit](https://www.reddit.com/r/gtaonline/comments/69kib3/program_to_empty_your_session_and_prevent_people/) | [Hackforums](https://hackforums.net/showthread.php?tid=5616391)**<br>
+[Reddit](https://www.reddit.com/r/gtaonline/comments/69kib3/program_to_empty_your_session_and_prevent_people/) | [Hackforums](https://hackforums.net/showthread.php?tid=5616391) | ~~MPGH~~**<br>
 <br>
 **Requirements for Session Locking:**<br>
 [1] Windows Firewall needs to be enabled.<br>
