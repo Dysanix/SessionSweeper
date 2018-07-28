@@ -18,6 +18,8 @@ namespace SessionSweeper
             InitializeComponent();
             RegisterHotKey(this.Handle, 0, 0, Keys.Pause.GetHashCode());
             RegisterHotKey(this.Handle, 1, 0, Keys.Scroll.GetHashCode());
+            RegisterHotKey(this.Handle, 2, 0, Keys.PrintScreen.GetHashCode());
+            RegisterHotKey(this.Handle, 3, 0, Keys.End.GetHashCode());
             DataStorage.FirewallControl.UnlockLobby();
             FormClosing += fMain_Closing;
         }
@@ -39,6 +41,14 @@ namespace SessionSweeper
                     else if (key == Keys.Scroll)
                     {
                         ToggleLockSession();
+                    }
+                    else if (key == Keys.PrintScreen)
+                    {
+                        ToggleNetwork();
+                    }
+                    else if (key == Keys.End)
+                    {
+                        ToggleAntiIdling();
                     }
                 }
                 else
@@ -62,6 +72,50 @@ namespace SessionSweeper
                 }
             }
             return isRunning;
+        }
+
+        private void ToggleNetwork()
+        {
+            if (isGTAVRunning())
+            {
+                if (!tmrNetwork.Enabled)
+                {
+                    DataStorage.pPending.Play();
+                    NetworkConnectionControl.Disconnect();
+                    tmrNetwork.Start();
+                }
+            }
+            else
+            {
+                Activate();
+                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ToggleAntiIdling()
+        {
+            DataStorage.AntiIdlingActive = !DataStorage.AntiIdlingActive;
+
+            if (isGTAVRunning())
+            {
+                if (DataStorage.AntiIdlingActive)
+                {
+                    DataStorage.MouseEventControl.Start();
+                    lblAfkStatus.BackColor = Color.Green;
+                    lblAfkStatus.Text = "Auto mouse movement enabled!";
+                }
+                else
+                {
+                    DataStorage.MouseEventControl.Stop();
+                    lblAfkStatus.BackColor = Color.Red;
+                    lblAfkStatus.Text = "Auto mouse movement disabled!";
+                }
+            }
+            else
+            {
+                Activate();
+                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void SweepSession()
@@ -108,6 +162,13 @@ namespace SessionSweeper
             }
         }
 
+        private void tmrNetwork_Tick(object sender, EventArgs e)
+        {
+            NetworkConnectionControl.Connect();
+            DataStorage.pSweeped.Play();
+            tmrNetwork.Stop();
+        }
+
         private void tmrResume_Tick(object sender, EventArgs e)
         {
             Toolkit.ResumeProcess(DataStorage.pGTAV.Id);
@@ -124,6 +185,9 @@ namespace SessionSweeper
                 lblLockSessionInfo.Font = new Font(lblLockSessionInfo.Font, FontStyle.Strikeout);
                 btnScrollLock.Enabled = false;
             }
+
+            lblAfkStatus.Text = "Auto mouse movement disabled!";
+            lblAfkStatus.BackColor = Color.Red;
         }
 
         private void fMain_Closing(object sender, CancelEventArgs e)
@@ -131,6 +195,8 @@ namespace SessionSweeper
             DataStorage.FirewallControl.UnlockLobby();
             UnregisterHotKey(this.Handle, 0);
             UnregisterHotKey(this.Handle, 1);
+            UnregisterHotKey(this.Handle, 2);
+            UnregisterHotKey(this.Handle, 3);
         }
 
         private void btnPauseBreak_Click(object sender, EventArgs e)
@@ -141,6 +207,16 @@ namespace SessionSweeper
         private void btnScrollLock_Click(object sender, EventArgs e)
         {
             ToggleLockSession();
+        }
+
+        private void btnPrintScreen_Click(object sender, EventArgs e)
+        {
+            ToggleNetwork();
+        }
+
+        private void btnEnd_Click(object sender, EventArgs e)
+        {
+            ToggleAntiIdling();
         }
     }
 }

@@ -12,8 +12,10 @@ namespace SessionSweeper
     {
         public static Process pGTAV;
         public static bool LobbyLocked = false;
+        public static bool AntiIdlingActive = false;
 
         public static WinFirewall.FWCtrl FirewallControl = new WinFirewall.FWCtrl();
+        public static MouseEventControl MouseEventControl = new MouseEventControl();
 
         public static System.Media.SoundPlayer pSweeped = new System.Media.SoundPlayer(Properties.Resources.sweeped);
         public static System.Media.SoundPlayer pPending = new System.Media.SoundPlayer(Properties.Resources.pending);
