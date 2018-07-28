@@ -3,7 +3,7 @@ Press *Pause/Break* to disconnect from everyone in your current session and be a
 Press *Scroll Lock* to toggle lock your current session and stop people from joining.<br>
 Press *Print Screen* to disconnect and reconnect internet.<br>
 Press *End* to Enable/Disable anti idle.<br>
-[![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
+<br>
 <br>
 **Official Threads:<br>
 [Reddit](https://www.reddit.com/r/gtaonline/comments/69kib3/program_to_empty_your_session_and_prevent_people/) | [Hackforums](https://hackforums.net/showthread.php?tid=5616391) | [MPGH](http://www.mpgh.net/forum/showthread.php?t=1256022)**<br>
@@ -20,5 +20,5 @@ Press *End* to Enable/Disable anti idle.<br>
 [![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")<br>
 <br>
 **Image:**<br>
-<img src="http://image.prntscr.com/image/ec88bfedee994a5b93280f2eebe9b084.png"/>
+![Screenshot](view-1-4.png)
 
