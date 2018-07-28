@@ -22,7 +22,7 @@ namespace SessionSweeper
 
         public MouseEventControl()
         {
-            _timer.Interval = 1000;
+            _timer.Interval = 15000;
             _timer.Tick += OnTimerTick;
         }
 
