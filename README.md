@@ -1,4 +1,6 @@
-**GTA V Online - SessionSweeper 1.2**<br>
+**Working on SessionSweeper 2**
+
+**GTA V Online - SessionSweeper 1.4**<br>
 Press *Pause/Break* to disconnect from everyone in your current session and be alone.<br>
 Press *Scroll Lock* to toggle lock your current session and stop people from joining.<br>
 Press *Print Screen* to disconnect and reconnect internet.<br>
