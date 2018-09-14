@@ -5,6 +5,8 @@ Press *Print Screen* to disconnect and reconnect internet.<br>
 Press *End* to Enable/Disable anti idle.<br>
 <br>
 <br>
+[![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
+<br>
 **Official Threads:<br>
 [Reddit](https://www.reddit.com/r/gtaonline/comments/69kib3/program_to_empty_your_session_and_prevent_people/) | [Hackforums](https://hackforums.net/showthread.php?tid=5616391) | [MPGH](http://www.mpgh.net/forum/showthread.php?t=1256022)**<br>
 <br>
