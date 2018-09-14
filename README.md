@@ -16,7 +16,6 @@ Press *End* to Enable/Disable anti idle.<br>
 **Will I get banned for using this?**<br>
 **No,** process suspension and firewall blockage can happen on any normal computer.<br>
 <br>
-<img src="http://image.prntscr.com/image/ec88bfedee994a5b93280f2eebe9b084.png"/>
 **Video:**<br>
 [![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")<br>
 <br>
