@@ -1,11 +1,11 @@
-**Working on SessionSweeper 2. Stay tuned!**
-
+**Working on SessionSweeper 2. Stay tuned!**<br>
+<br>
+[![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
+<br>
 **GTA V Online - SessionSweeper**<br>
 Press *Pause/Break* to disconnect from everyone in your current session and be alone.<br>
 Press *Scroll Lock* to toggle lock your current session and stop people from joining.<br>
 <br>
-<br>
-[![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
 <br>
 **Official Download:<br>
 [Dropbox version 1.2](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)**<br>
