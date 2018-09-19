@@ -1,4 +1,4 @@
-**Working on SessionSweeper 2. Stay tuned!**<br>
+**__Working on SessionSweeper 2. Stay tuned!__**<br>
 <br>
 [![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
 <br>
