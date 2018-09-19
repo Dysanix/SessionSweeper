@@ -7,8 +7,8 @@ Press *Scroll Lock* to toggle lock your current session and stop people from joi
 <br>
 [![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
 <br>
-**Official Download:**<br>
-[Dropbox version 1.2](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)<>
+**Official Download:<br>
+[Dropbox version 1.2](https://www.dropbox.com/s/hysn2p2qli54uvy/SessionSweeper.exe?dl=1)**<br>
 <br>
 **Official Threads:<br>
 [Reddit](https://www.reddit.com/r/gtaonline/comments/69kib3/program_to_empty_your_session_and_prevent_people/) | [Hackforums](https://hackforums.net/showthread.php?tid=5616391) | [MPGH](http://www.mpgh.net/forum/showthread.php?t=1256022)**<br>
