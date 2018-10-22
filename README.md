@@ -21,9 +21,6 @@ Press *Scroll Lock* to toggle lock your current session and stop people from joi
 **Will I get banned for using this?**<br>
 **No,** process suspension and firewall blockage can happen on any normal computer.<br>
 <br>
-**Video:**<br>
-[![SessionSweeper Video](http://i.imgur.com/xPt330K.png)](https://www.youtube.com/watch?v=lFB9JZ9QQr4 "SessionSweeper Video")<br>
-<br>
 **Image:**<br>
 ![Screenshot](https://i.imgur.com/wHqn1z4.png)
 
