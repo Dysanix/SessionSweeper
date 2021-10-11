@@ -10,7 +10,7 @@ namespace SessionSweeper
 {
     class DataStorage
     {
-        public static Process pGTAV;
+        public static Process pRDR2;
         public static bool LobbyLocked = false;
         public static bool AntiIdlingActive = false;
 

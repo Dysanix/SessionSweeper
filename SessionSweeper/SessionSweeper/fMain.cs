@@ -29,7 +29,7 @@ namespace SessionSweeper
             base.WndProc(ref m);
             if (m.Msg == 0x0312)
             {
-                if (isGTAVRunning())
+                if (isRDR2Running())
                 {
                     Keys key = (Keys)(((int)m.LParam >> 16) & 0xFFFF);
                     int id = m.WParam.ToInt32();
@@ -54,20 +54,20 @@ namespace SessionSweeper
                 else
                 {
                     Activate();
-                    MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("RDR2 was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
 
-        private bool isGTAVRunning()
+        private bool isRDR2Running()
         {
             bool isRunning = false;
             foreach (Process process in Process.GetProcesses())
             {
-                if (process.ProcessName.Equals("GTA5"))
+                if (process.ProcessName.Equals("RDR2"))
                 {
                     isRunning = true;
-                    DataStorage.pGTAV = process;
+                    DataStorage.pRDR2 = process;
                     break;
                 }
             }
@@ -76,7 +76,7 @@ namespace SessionSweeper
 
         private void ToggleNetwork()
         {
-            if (isGTAVRunning())
+            if (isRDR2Running())
             {
                 if (!tmrNetwork.Enabled)
                 {
@@ -88,7 +88,7 @@ namespace SessionSweeper
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("RDR2 was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -96,7 +96,7 @@ namespace SessionSweeper
         {
             DataStorage.AntiIdlingActive = !DataStorage.AntiIdlingActive;
 
-            if (isGTAVRunning())
+            if (isRDR2Running())
             {
                 if (DataStorage.AntiIdlingActive)
                 {
@@ -114,32 +114,32 @@ namespace SessionSweeper
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("RDR2 was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void SweepSession()
         {
-            if (isGTAVRunning())
+            if (isRDR2Running())
             {
                 if (!tmrResume.Enabled)
                 {
                     DataStorage.pPending.Play();
-                    Toolkit.SuspendProcess(DataStorage.pGTAV.Id);
+                    Toolkit.SuspendProcess(DataStorage.pRDR2.Id);
                     tmrResume.Start();
                 }
             }
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("RDR2 was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void ToggleLockSession()
         {
             if (!DataStorage.HasAdministrativeRight) { return; }
-            if (isGTAVRunning())
+            if (isRDR2Running())
             {
                 if (DataStorage.LobbyLocked)
                 {
@@ -158,7 +158,7 @@ namespace SessionSweeper
             else
             {
                 Activate();
-                MessageBox.Show("GTA V was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("RDR2 was not detected!", "SessionSweeper", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -171,7 +171,7 @@ namespace SessionSweeper
 
         private void tmrResume_Tick(object sender, EventArgs e)
         {
-            Toolkit.ResumeProcess(DataStorage.pGTAV.Id);
+            Toolkit.ResumeProcess(DataStorage.pRDR2.Id);
             DataStorage.pSweeped.Play();
             tmrResume.Stop();
         }

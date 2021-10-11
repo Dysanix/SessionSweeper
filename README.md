@@ -2,7 +2,7 @@
 <br>
 [![Donate](http://i.imgur.com/FtaJpum.gif)](https://paypal.me/groupload "Donate")<br>
 <br>
-**GTA V Online - SessionSweeper**<br>
+**GTA V Online and RDR 2 Online - SessionSweeper**<br>
 Press *Pause/Break* to disconnect from everyone in your current session and be alone.<br>
 Press *Scroll Lock* to toggle lock your current session and stop people from joining.<br>
 <br>

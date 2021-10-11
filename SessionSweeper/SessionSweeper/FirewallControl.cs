@@ -16,8 +16,8 @@ namespace WinFirewall
         public void LockLobby(bool playSound = false)
         {
             INetFwRule newRule = (INetFwRule)Activator.CreateInstance(typeFWRule);
-            newRule.Name = "GTA V Session Lock";
-            newRule.Description = "GTA V Session Lock";
+            newRule.Name = "RDR2 Session Lock";
+            newRule.Description = "RDR2 Session Lock";
             newRule.Protocol = (int)NET_FW_IP_PROTOCOL_.NET_FW_IP_PROTOCOL_UDP;
             newRule.LocalPorts = "6672,61455,61457,61456,61458";
             newRule.Direction = NET_FW_RULE_DIRECTION_.NET_FW_RULE_DIR_OUT;
@@ -35,7 +35,7 @@ namespace WinFirewall
         public void UnlockLobby(bool playSound = false)
         {
             INetFwPolicy2 fwPolicy2 = (INetFwPolicy2)Activator.CreateInstance(typeFWPolicy2);
-            fwPolicy2.Rules.Remove("GTA V Session Lock");
+            fwPolicy2.Rules.Remove("RDR2 Session Lock");
 
             if (playSound)
                 DataStorage.pUnlocked.Play();
